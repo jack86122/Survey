@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 請定義問券名稱 -->
+    <title> 用餐服務滿意度調查表 </title>
+    <style>
+        div{
+            border-style:double;
+            border-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>用餐服務滿意度調查表</h2>
+    <form>
+        <div>
+            <label for="userName">姓名：</label>
+            <input type="text" name="userName" id="userName">
+        </div>
+        <div>
+            <br>
+            <label for="age">年齡：</label>
+            <input type="tel" name="age" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="">餐點滿意度：</label>
+            <input type="radio" name="job" id="good">
+            <label for="good">很好</label>
+            <input type="radio" name="job" id="notbad">
+            <label for="notbad">普通</label>
+            <input type="radio" name="job" id="bad">
+            <label for="bad">差勁</label>
+
+        </div>
+        
+        <div>
+            <label for="">最喜歡：</label>
+            <input type="checkbox" name="meal" id="">
+            <label for="meal">前菜</label>
+            <input type="checkbox" name="meal" id="">
+            <label for="meal">主餐</label>
+            <input type="checkbox" name="meal" id="">
+            <label for="meal">甜點</label>
+            <input type="checkbox" name="meal" id="">
+            <label for="meal">飲品</label>
+        </div>
+        <div>
+            <label for="ad">在哪裡得知本餐廳：</label>
+            <select name="ad"><option value="">親友介紹</option><option value="">網路平台</option><option value="">電視廣告</option></select>
+
+        </div>
+        <div>
+            	<input type="submit" name="" value="送出">
+        </div>
+    </form>
+    <!-- HTML5 新增了許多 <input> 的型態，請使用這些type，設計一份問卷 -->
+    <!-- http://www.w3schools.com/html/html_form_input_types.asp -->
+
+    <!-- 如果不知道該怎麼下手，請參考這個網站所設計的情境問卷找靈感 -->
+    <!-- https://technews.tw/2018/10/18/surveycake-situation-list/ -->
+
+    <!-- 底下是作業需要包含的項目 -->
+    <!-- 1. 問卷需包含 5-7 個問題 -->
+    <!-- 2. type 挑選時，請盡量不重複 -->
+    <!-- 3. 挑選 至少 1 個問題，設置 pattern 檢核 -->
+
+</body>
+
+</html>
